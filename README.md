@@ -1,6 +1,6 @@
 # `@nocp/toggle`
 
-React Toggle Component
+**React Toggle Component**
 
 By NriotHrreion
 
