@@ -1,6 +1,6 @@
 {
   "name": "@nocp/toggle",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "React Toggle Component",
   "repository": "https://github.com/nocpiun/toggle",
   "main": "dist/cjs/index.js",
