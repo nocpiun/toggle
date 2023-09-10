@@ -8,7 +8,7 @@ By NriotHrreion
 
 ## Installation
 
-```cmd
+```bash
 npm i @nocp/toggle
 ```
 
