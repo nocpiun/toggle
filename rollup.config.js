@@ -1,4 +1,5 @@
 const resolve = require("@rollup/plugin-node-resolve");
+const peerDepsExternal = require("rollup-plugin-peer-deps-external");
 const commonjs = require("@rollup/plugin-commonjs");
 const typescript = require("@rollup/plugin-typescript");
 const less = require("rollup-plugin-less");
@@ -23,6 +24,7 @@ module.exports = [
         ],
         plugins: [
             resolve(),
+            peerDepsExternal(),
             commonjs(),
             typescript({ tsconfig: "./tsconfig.json" }),
             less({ output: "dist/toggle.css" }),
