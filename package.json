@@ -2,6 +2,7 @@
   "name": "@nocp/toggle",
   "version": "0.1.0",
   "description": "React Toggle Component",
+  "repository": "https://github.com/nocpiun/toggle",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "scripts": {

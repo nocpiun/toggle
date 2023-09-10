@@ -18,6 +18,9 @@ Import the component
 
 ```tsx
 import Toggle from "@nocp/toggle";
+
+// style
+import "@nocp/toggle/dist/toggle.css";
 ```
 
 Use the component
