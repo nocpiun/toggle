@@ -1,0 +1,30 @@
+:root {
+  --nocp-toggle-bar-bg: #9e9e9e;
+  --nocp-toggle-knob-bg: #dbdbdb;
+}
+.toggle {
+  width: 34px;
+  position: relative;
+  cursor: pointer;
+}
+.toggle-bar {
+  z-index: 0;
+  width: 28px;
+  height: 12px;
+  border-radius: 8px;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  background-color: var(--nocp-toggle-bar-bg);
+}
+.toggle-knob {
+  z-index: 1;
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: relative;
+  transition: transform ease 80ms;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
+  background-color: var(--nocp-toggle-knob-bg);
+}
