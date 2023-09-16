@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 
-// Style
-import "./style/style.less";
-
 interface ToggleProps {
     defaultToggleValue?: boolean
     onToggle?: (isActive: boolean) => void

@@ -27,11 +27,16 @@ module.exports = [
             peerDepsExternal(),
             commonjs(),
             typescript({ tsconfig: "./tsconfig.json" }),
+        ],
+    },
+    {
+        input: "src/style/style.less",
+        plugins: [
             less({ output: "dist/toggle.css" }),
         ],
     },
     {
-        input: "dist/esm/types/index.d.ts",
+        input: "dist/esm/types/src/index.d.ts",
         output: [{ file: "dist/index.d.ts", format: "esm" }],
         plugins: [dts()],
     },

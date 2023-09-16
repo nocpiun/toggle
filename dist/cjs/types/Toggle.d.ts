@@ -1,6 +1,5 @@
 import React from "react";
 interface ToggleProps {
-    tooltip?: string;
     defaultToggleValue?: boolean;
     onToggle?: (isActive: boolean) => void;
 }
